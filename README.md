@@ -5,3 +5,5 @@ http://vchenli.com
 
 Install Ubuntu 14.04!
 Life is not easy!
+
+To be or not to be...
