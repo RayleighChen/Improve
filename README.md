@@ -12,3 +12,5 @@ To be or not to be...
 感谢这个世界给予我的幸运
 
 任务继续！
+
+rbm-rnn
