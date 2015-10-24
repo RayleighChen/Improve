@@ -1,1 +1,3 @@
 init
+import os
+os.walkin(path)
