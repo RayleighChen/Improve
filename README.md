@@ -16,3 +16,5 @@ To be or not to be...
 rbm-rnn
 
 http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B
+
+生活总是没有那么容易。
