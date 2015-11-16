@@ -50,6 +50,5 @@ int main()
         int ith = NSort(L, 0, 9, i);
         printf("%d\n", ith);
     }
- 
     return 0;
  }
