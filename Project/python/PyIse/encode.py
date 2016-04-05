@@ -40,7 +40,6 @@ print '\n'
 
 #Substitution
 #key: 字母表进行对称对换，例如:a->y, c->x
-#(！！！一定要换成自己的替换字典！！！)
 #statements3
 #i can because i think i can
 str = 'i can because i think i can'
@@ -56,7 +55,7 @@ for i in str_index:
     print alph[25 - i].upper(),
 print '\n'
 
-#Vigenere, key = 'dobest'
+#Vigenere, key = 'yes'
 #statements4
 #action speak louder than words
 str = 'action speak louder than words'
@@ -67,7 +66,7 @@ for char in str:
     else:
         str_index.append(alph.index(char))
 
-key = 'dobest'
+key = 'yes'
 iter = 0
 key_index = []
 for char in key:
@@ -120,7 +119,6 @@ print '\n'
 #[ 0  1  2 ..., 18 19 20]
 #[ 0  1  2 ..., 18 19 20]
 #[ 0  1  2 ..., 18 19 20]]
-#(****一定要根据自己的句子换矩阵key****)
 #statements6
 #justice has long arms
 str = 'justice has long arms'
@@ -166,8 +164,8 @@ print "Permutation Cipher"
 key = [4, 3, 1, 5, 2]
 key_len = len(key)
 for i in np.arange(len(str_index)):
-    index = key[i % key_len] - 1 + i / key_len * key_len
-    print alph[str_index[index]].upper(),
+    #index = key[i % key_len] - 1 + i / key_len * key_len    
+    print alph[str_index[key[i % len(key)] - 1 + i / key_len * key_len]].upper(),
 print '\n'
 		
 #Vigenere Autokey, key = 8
