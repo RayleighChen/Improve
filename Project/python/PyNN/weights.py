@@ -17,11 +17,11 @@ for i in xrange(len(hidden_layer_sizes)):
     fan_out = hidden_layer_sizes[i]
 
     #-------little random number
-    W = np.random.randn(fan_in, fan_out) * 0.01
+    #W = np.random.randn(fan_in, fan_out) * 0.01
     #-------zero
     #W = 0
     #-------big number 
-    #W = np.random.randn(fan_in, fan_out) * 1
+    W = np.random.randn(fan_in, fan_out) * 1
     #-------xavier and tanh (xavier and relu)
     #W = np.random.randn(fan_in, fan_out) / np.sqrt(fan_in)
     #-------Delving deep into rectifiers: Surpassing human-level performance on ImageNet classification by He et al., 2015 
